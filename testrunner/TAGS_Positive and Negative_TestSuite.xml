@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tags positive and negative suite">
+	<test thread-count="5" name="Tags positive and negative Flow">
+		<classes>
+			<class name="tags_positive.CreateTags" />
+			<class name="tags_positive.GetTags" />
+			<class name="tags_positive.GetTagSubscribers" />
+			<class name="tags_positive.TagSubscribers" />
+			<class name="tags_positive.UntagSubscribers" />
+			<class name="tags_negative.CreateTags" />
+			<class name="tags_negative.GetTagSubscribers" />
+			<class name="tags_negative.TagSubscribers" />
+			<class name="tags_negative.UntagSubscribers" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

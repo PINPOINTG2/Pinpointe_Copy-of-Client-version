@@ -1,0 +1,12 @@
+TestCase,Email Address,Add_to_autoresponders,Mailing List,Format,Confirmed,Add Custom fields,Tag
+Adding Positive data,demo0001@g2tsolutions.com,yes,82,html,yes,yes,""
+Adding Same Email id in the list,demo0001@g2tsolutions.com,yes,82,html,yes,yes,""
+Adding without email,,yes,82,html,yes,yes,""
+Adding without mailing id,demo0002@g2tsolutions.com,yes,,html,yes,yes,""
+Adding without mandatory fields, ,yes,,html,yes,yes,""
+Adding non-Existing Mailing List,demo0003@g2tsolutions.com,yes,80025,html,yes,yes,""
+Adding invalid email with non-Existing Mailing List,demo0004@g2tsolutions.com,yes,80025,html,yes,yes,""
+Adding without Custom fields, demo0005@g2tsolutions.com,yes,82,html,yes,no,""
+positive data with invalid field id,demo0006@g2tsolutions.com,yes,82,html,yes,yes,""
+existing email id with empty field value,demo0001@g2tsolutions.com,yes,82,html,yes,yes,""
+invalid field id with valid field value,demo0008@g2tsolutions.com,yes,82,html,yes,yes,""

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Subscribers positive suite">
+  <test thread-count="5" name="Subscribers positive Flow">
+   <classes>    
+      <class name="subscribers_positive.AddSubscribers"/>
+      <class name="subscribers_positive.GetSubscribers"/>
+      <class name="subscribers_positive.UpdateSubscribers"/>
+      <class name="subscribers_positive.CheckListforContact"/>
+      <class name="subscribers_positive.Unsubscribe"/>
+      <class name="subscribers_positive.CheckListforUnsubscribedContact"/>
+      <class name="subscribers_positive.DeleteSubscriber"/>
+      <class name="subscribers_positive.CopyContactList"/>
+      <!-- <class name="subscribers_positive.AddMultipleSubscribers"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

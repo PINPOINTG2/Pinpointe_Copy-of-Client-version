@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Subscribers API">
+	<test thread-count="5" name="Subscribers positive and Negative Run">
+		<classes>
+			<class name="subscribers_positive.AddSubscribers" />
+			<class name="subscribers_positive.GetSubscribers" />
+			<class name="subscribers_positive.UpdateSubscribers" />
+			<class name="subscribers_positive.CheckListforContact" />
+			<class name="subscribers_positive.Unsubscribe" />
+			<class
+				name="subscribers_positive.CheckListforUnsubscribedContact" />
+			<class name="subscribers_positive.DeleteSubscriber" />
+			<class name="subscribers_negative.AddSubscribers" />
+			<class name="subscribers_negative.GetSubscribers" />
+			<class name="subscribers_negative.UpdateSubscribers" />
+			<class name="subscribers_negative.CheckListforContact" />
+			<class name="subscribers_negative.Unsubscribe" />
+			<class
+				name="subscribers_negative.CheckListforUnsubscribedContact" />
+			<class name="subscribers_negative.DeleteSubscribers" />
+			<class name="subscribers_negative.AddMultipleSubscribers" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

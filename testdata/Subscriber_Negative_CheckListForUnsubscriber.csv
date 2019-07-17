@@ -1,0 +1,7 @@
+TestCase,Email,List Id
+Non existing Email id,demo0011@g2tsolutions.com,82
+Non existing List id,demo0001@g2tsolutions.com,802
+Blank email id,,82
+Blank List id,demo0001@g2tsolutions.com,
+Blank data in email and List id,,
+Valid Email id and list id but not belonging each other,demo0001@g2tsolutions.com,86

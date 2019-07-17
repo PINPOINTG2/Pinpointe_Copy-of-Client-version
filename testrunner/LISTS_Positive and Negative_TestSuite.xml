@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Lists Positive and Negative suite">
+	<test thread-count="5" name="Lists Positive and Negative Flow">
+		<classes>
+			<class name="lists_positive.FindListByListId" />
+			<class name="lists_positive.FindListByName" />
+			<class name="lists_positive.GetCustomFieldStructure" />
+			<class name="lists_positive.GetListSubscribers" />
+			<class name="lists_positive.GetUsersCustomFieldData" />
+			<class name="lists_negative.FindList" />
+			<class name="lists_negative.GetCustomFieldStructure" />
+			<class name="lists_negative.GetListSubscribers" />
+			<class name="lists_negative.GetUsersCustomFieldData" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

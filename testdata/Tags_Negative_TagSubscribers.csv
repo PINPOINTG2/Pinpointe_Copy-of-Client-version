@@ -1,0 +1,5 @@
+TestCase,Subscribersid,Tag Id/Name
+Without Subscribers id,,11&Other Tag
+Without Tag id,7981318&7981347,
+invalid Subscribers id,7981318&7981347&dfbdhjfbf,66
+invalid tag id,7981318&7981347,11

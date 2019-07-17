@@ -1,0 +1,9 @@
+TestCase,Mailing list,Tag,option_update_if_exists,add_to_autoresponders
+invalid mailing List id,802,,yes,no
+Already existing Email id,82,,no,no
+invalid field id, 82,,yes,no
+Blank email,82,,no,no
+Blank mailing list,,,no,no
+Blank value on field, 82,,yes,no
+Blank field id,82,,yes,no
+Bulk Contact With Single Invalid Contact,82,11,yes,no

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Subscribers negative suite">
+	<test thread-count="5" name="Subscribers negative Flow">
+		<classes>
+			<class name="subscribers_negative.AddSubscribers" />
+			<class name="subscribers_negative.GetSubscribers" />
+			<class name="subscribers_negative.UpdateSubscribers" />
+			<class name="subscribers_negative.CheckListforContact" />
+			<class name="subscribers_negative.Unsubscribe" />
+			<class name="subscribers_negative.CheckListforUnsubscribedContact" />
+			<class name="subscribers_negative.DeleteSubscribers" />
+			<class name="subscribers_negative.AddMultipleSubscribers" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

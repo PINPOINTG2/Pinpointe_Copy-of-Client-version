@@ -1,0 +1,7 @@
+TestCase,Subscriber Id,Listid, Field ids
+Blank Subscriber id,,82,8&4&5&6&7
+Blank List id,7981318,,8&4&5&6&7
+Blank Field id,7981318,82,
+Non existing List id,7981318,802,8&4&5&6&7
+Non existing Field id,7981318,82,888&4&5&6&7
+Non existing Subscriber id,7981802,82,8&4&5&6&7

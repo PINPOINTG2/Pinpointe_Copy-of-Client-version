@@ -1,0 +1,9 @@
+TestCase,Email, List Id
+Positive Exisiting data,demo0001@g2tsolutions.com,82
+Existing email is with invalid list id,demo0001@g2tsolutions.com,502
+Non existing email,demo0123@g2tsolutions.com,82
+Non Exisiting email and invalid list id,demo0123@g2tsolutions.com,802
+Without Email id,,82
+Without List id,demo0001@g2tsolutions.com,
+Without Mandatory field,,
+Valid email and valid list id- But not belonging to each other,demo0001@g2tsolutions.com,86

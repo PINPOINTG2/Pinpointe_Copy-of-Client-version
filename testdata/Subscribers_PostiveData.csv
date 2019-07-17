@@ -1,0 +1,4 @@
+TestCase,Email Address,Add_to_autoresponders,Mailing List,Format,Confirmed,Add Custome fields,Tag
+Postive - Add Subscriber,demo024@g2tsolutions.com,true,82,html,yes,yes,""
+Postive - Subscriber,demo024@g2tsolutions.com,82
+Postive - Update Subscriber,demo024@g2tsolutions.com,,82,html,yes,yes,""

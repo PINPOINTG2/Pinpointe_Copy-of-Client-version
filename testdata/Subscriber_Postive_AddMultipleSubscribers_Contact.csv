@@ -1,0 +1,5 @@
+TestCase,Contact Id,Email address,Format,Confirmed,Tag
+1,1,test1@g2tsolutions.com,html,yes,""
+1,2,test2@g2tsolutions.com,html,yes,""
+2,3,test1@g2tsolutions.com,html,yes,""
+2,4,test2@g2tsolutions.com,html,yes,""

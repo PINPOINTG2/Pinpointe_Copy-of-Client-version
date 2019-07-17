@@ -1,0 +1,14 @@
+TestCase,Field Id,Value
+Non existing Email id,2,john
+Non existing Email id,3,williams
+Invalid mailing id,2, john
+Invalid mailing id,3, williams
+Invalid email id mailing id,2, John
+Invalid email id mailing id,3, Smith
+Invalid field id,26, Canada
+Invalid data in email, list id and field id,26,Canada
+Blank list id,2,john
+Blank list id,3,williams
+Blank email id,2,john
+Blank email id,3,williams
+Blank data in email and list, 2,john

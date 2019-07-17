@@ -1,0 +1,24 @@
+TestCase,Field Id,Value
+Adding Positive data,2, john
+Adding Positive data,3,	smith
+Adding Positive data,8, Vancouver
+Adding Same Email id in the list, 8, Vancouver
+Adding Same Email id in the list, 3, Vancouver
+Adding without email, 11, Canada
+Adding without email, 2, John
+Adding without mailing id, 2, John
+Adding without mailing id, 3, Smith
+Adding without mailing id, 8, Vancouver
+Adding without mandatory fields, 2, John
+Adding without mandatory fields, 3, Smith
+Adding without mandatory fields, 8, Vancouver
+Adding non-Existing Mailing List, 2, John
+Adding non-Existing Mailing List, 3, Smith
+Adding invalid email with non-Existing Mailing List, 2, John
+Adding invalid email with non-Existing Mailing List, 3, Smith
+postive data with invalid field id, 43, smith
+postive data with invalid field id, 48, 9876543210
+existing email id with empty field value, 2, ""
+existing email id with empty field value, 3, Smith
+invalid field id with valid field value, 43, John
+invalid field id with valid field value, 44, Smith

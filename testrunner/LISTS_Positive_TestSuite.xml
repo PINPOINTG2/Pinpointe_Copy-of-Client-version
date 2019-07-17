@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Lists positive suite">
+	<test thread-count="5" name="Lists positive Flow">
+		<classes>
+			<class name="lists_positive.FindListByListId" />
+			<class name="lists_positive.FindListByName" />
+			<class name="lists_positive.GetCustomFieldStructure" />
+			<class name="lists_positive.GetListSubscribers" />
+			<class name="lists_positive.GetUsersCustomFieldData" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+

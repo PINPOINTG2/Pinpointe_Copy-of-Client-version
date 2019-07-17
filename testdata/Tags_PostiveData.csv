@@ -1,0 +1,5 @@
+TestCase,Subscribersid,Tag Id/Name
+Untag Subscribers,7981318&7981347,66&Other Tag
+GetTagSubscribers,66
+Tag Subscribers,7981318&7981347,66&Other Tag
+GetTags, 82, demo0001@g2tsolutions.com
